@@ -8,13 +8,6 @@ export default function Home() {
       <header className="w-full border-b border-neutral-200/70 dark:border-neutral-800/60 backdrop-blur supports-[backdrop-filter]:bg-white/40 sticky top-0 z-50">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <Image
-              src="/images/fsu-hsa-logo.png"
-              alt="Hindu Student Association at FSU"
-              width={40}
-              height={40}
-              className="rounded-lg"
-            />
             <div>
               <p className="text-sm uppercase tracking-widest text-white">Florida State University</p>
               <h1 className="text-lg sm:text-xl font-bold tracking-tight">Hindu Student Association</h1>
